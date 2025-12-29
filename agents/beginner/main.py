@@ -9,7 +9,6 @@ from crewai import Crew
 from agents import thinker
 from tasks import conflict_task
 
-# "/Users/ishandutta/Documents/code/outskill/agents/beginner/crewai_memory"
 os.environ["CREWAI_STORAGE_DIR"] = (
     "/crewai_memory"
 )

@@ -5,7 +5,6 @@ from crewai import Crew, Process
 from agents import issue_investigator, log_analyzer, solution_specialist
 from tasks import analyze_logs_task, investigate_issue_task, provide_solution_task
 
-# "/Users/ishandutta/Documents/code/outskill/agents/intermediate/crewai_memory"
 os.environ["CREWAI_STORAGE_DIR"] = (
     "/crewai_memory"
 )
