@@ -18,7 +18,7 @@ llm = LLM(
 # Define your agent with OpenAI LLM
 thinker = Agent(
     role="Critical Thinker",
-    goal="Analyse the text and identify if any conflicting information within",
+    goal="Analyse the text and identify if there is any conflicting information within",
     llm=llm,
     backstory=(
         "You are a critical thinker who understands details very well and expert negotiator. \
