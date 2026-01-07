@@ -1,4 +1,4 @@
-# Code for Outskill GenAI Workshops
+# GenAI Code 
 
 ## .env
 Prepare the following `.env` file in your root folder:
