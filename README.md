@@ -1,4 +1,4 @@
-# GenAI Code 
+# GenAI Code
 
 ## .env
 Prepare the following `.env` file in your root folder:
