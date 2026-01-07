@@ -1,4 +1,4 @@
-# GenAI Code
+# GenAI - AI Agents Code
 
 ## .env
 
