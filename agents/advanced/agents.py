@@ -2,7 +2,7 @@ import os
 
 from crewai import Agent
 from crewai.llm import LLM
-from dotenv import load_dotenv
+from dotenv import load_dotenv  # ✅ Correct
 
 from tools import (
     exa_search_tool,
@@ -17,7 +17,7 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
 llm = LLM(
     model="gpt-4.1-2025-04-14",
-    temperature=0.7,
+    temperature=0.7, # Set to 0.7 for balanced creativity and consistency
     max_tokens=4000,
     timeout=120,  # 2 minutes timeout
 )

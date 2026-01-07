@@ -2,11 +2,11 @@ import os
 
 from crewai import Agent
 from crewai.llm import LLM
-from dotenv import load_dotenv
+from dotenv import load_dotenv  # ✅ Correct
 
 load_dotenv()
 
-# Create an instance of OpenAI's LLM
+# Create an instance of OpenAI's LLMc
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 llm = LLM(
     model="gpt-4o",

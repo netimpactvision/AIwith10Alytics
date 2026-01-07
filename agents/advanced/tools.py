@@ -12,7 +12,6 @@ load_dotenv()
 
 session = requests.Session(impersonate="chrome")
 
-
 os.environ["EXA_API_KEY"] = os.getenv("EXA_API_KEY")
 
 try:
@@ -38,6 +37,10 @@ def get_current_stock_price(symbol: str) -> str:
 
     Returns:
         str: The current stock price or error message.
+
+    So in plain English, the full definition reads like:
+    - symbol: str → the symbol parameter should be a string  
+    - "-> str" → the function should return a string 
     """
     try:
         time.sleep(0.5)

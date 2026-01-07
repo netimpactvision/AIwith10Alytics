@@ -2,7 +2,7 @@ import os
 
 from crewai import Agent
 from crewai.llm import LLM
-from dotenv import load_dotenv
+from dotenv import load_dotenv  # ✅ Correct
 
 load_dotenv()
 
