@@ -1,7 +1,9 @@
 # GenAI Code
 
 ## .env
+
 Prepare the following `.env` file in your root folder:
+
 ```
 OPENAI_API_KEY=
 OPENROUTER_API_KEY=
